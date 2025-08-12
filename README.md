@@ -18,13 +18,14 @@ Environment variables:
 
 In .env file in the project root directory and add the following variables:
 
-# Your OpenAI API key for accessing the GPT models
+Your OpenAI API key for accessing the GPT models
 OPENAI_API_KEY=your_openai_api_key_here
 
 Important:
 Replace your_openai_api_key_here with your actual OpenAI API key. You can get this key from your OpenAI account dashboard under the API section. Paste it exactly as it is here to enable API access.
 
 **Why encode the system prompt?**
+
 The system prompt is base64 encoded to:
 
 Prevent accidental editing or formatting issues in environment files
