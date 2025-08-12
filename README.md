@@ -42,6 +42,7 @@ The application will prompt you to enter your loan-related questions and return 
 Architectural Decisions
 **Libraries**
 Scraping & Data Processing:
+
 Used Python's requests and BeautifulSoup for scraping official Bank of Maharashtra loan product pages. These libraries are effective for static HTML content extraction.
 
 RAG Pipeline & Embeddings:
@@ -53,7 +54,9 @@ Employed FAISS for fast, in-memory similarity search, avoiding the overhead of c
 
 **Data Strategy**
 Extracted and cleaned loan data into key fields for a focused knowledge base.
+
 Chunked loan descriptions into overlapping 500-character segments using RecursiveCharacterTextSplitter for precise retrieval.
+
 Embedded chunks with SentenceTransformers and indexed with FAISS for efficient semantic search.
 
 
