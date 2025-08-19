@@ -1,5 +1,5 @@
 
-🎥 **Demo Video:** [Watch Here](https://drive.google.com/file/d/1Q9HvWGCewtKtSfYMwZUG1RxIIym1KfLk/view?usp=sharing)
+
 
 ````markdown
 # Loan-Assistance
